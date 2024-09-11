@@ -88,12 +88,12 @@
           "z": 1000.00
         },
         {
-          "config": "{\"name\":\"6b063c84d7cc9a56866e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":187.0935960591133,\"y\":33.69458128078818,\"z\":0,\"width\":906.2068965517242,\"height\":298.81773399014776,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"snowball_output.customer_key\"},{\"queryRef\":\"Sum(snowball_output.grr)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"snowball_output\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"customer_key\"},\"Name\":\"snowball_output.customer_key\",\"NativeReferenceName\":\"customer_key\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"grr\"}},\"Function\":0},\"Name\":\"Sum(snowball_output.grr)\",\"NativeReferenceName\":\"Sum of grr\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"customer_key\"}}}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"6b063c84d7cc9a56866e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":120.5911330049261,\"y\":38.12807881773399,\"z\":0,\"width\":1084.4334975369459,\"height\":298.81773399014776,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"snowball_output.customer_key\"},{\"queryRef\":\"Sum(snowball_output.grr)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"snowball_output\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"customer_key\"},\"Name\":\"snowball_output.customer_key\",\"NativeReferenceName\":\"customer_key\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"grr\"}},\"Function\":0},\"Name\":\"Sum(snowball_output.grr)\",\"NativeReferenceName\":\"Sum of grr\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"customer_key\"}}}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
           "height": 298.82,
-          "width": 906.21,
-          "x": 187.09,
-          "y": 33.69,
+          "width": 1084.43,
+          "x": 120.59,
+          "y": 38.13,
           "z": 0.00
         },
         {
